@@ -5,7 +5,6 @@
 
 class Solution {
     public String countAndSay(int n) {
-        StringBuffer br = new StringBuffer();
         String result = "1";
         for (int i = 0; i < n-1; i++) {
             result = readString(result, 0);
